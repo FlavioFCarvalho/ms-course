@@ -26,6 +26,7 @@ public class PaymentResource {
 	}	
 	
 	public ResponseEntity<Payment> getPaymentAlternative(Long workerId, Integer days) {
+		//mock
 		Payment payment = new Payment("Brann", 400.0, days);
 		return ResponseEntity.ok(payment);
 	}

@@ -1,6 +1,5 @@
 package com.reobotnet.hrpayroll.entities;
 
-
 import java.io.Serializable;
 
 public class Payment implements Serializable {
